@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#120b22">
+  <title>Happy 24th Birthday Manikya! 🎂🎉</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="aurora"></div>
+  <div id="stars"></div>
+  <div id="petals"></div>
+
+  <main class="page">
+    <section class="hero glass">
+      <div class="badge">🔥 World's Best Brother turns 24! 👑</div>
+      <h1>Happy 24th Birthday<br><span>Manikya!</span> 🎂✨</h1>
+      <p class="intro">To my partner-in-crime, my brother, and the star of the house!</p>
+      <p class="intro soft">Welcome to Chapter 24! Today is all about celebrating YOU. Ready for your birthday surprise?</p>
+
+      <!-- Polaroid Photo Display -->
+      <div class="photo-gallery">
+        <div class="polaroid-card tilt-left">
+          <div class="glow-ring"></div>
+          <img src="manikya1.jpeg" alt="Manikya Photo 1" class="main-photo">
+          <div class="photo-caption">The Legend Himself @ 24 😎</div>
+        </div>
+      </div>
+
+      <!-- Interactive Blow Candle Feature -->
+      <div class="cake-container" id="cakeSection">
+        <div class="candle" id="candle">
+          <div class="flame" id="flame"></div>
+        </div>
+        <div class="cake-emoji">🎂</div>
+        <p class="cake-instruction" id="cakeInstruction">Tap the flame to blow out your 24th birthday candle!</p>
+      </div>
+
+      <button id="openBtn" class="magic-btn"><span>🎁</span> Unlock Birthday Surprise</button>
+      <p class="hint">Make a wish & tap above!</p>
+    </section>
+
+    <section id="message" class="message glass hidden">
+      <div class="sparkle">🎆</div>
+      <p class="eyebrow">A SPECIAL MESSAGE FOR MY BROTHER</p>
+      <h2>Dear Manikya 🥂</h2>
+
+      <div class="quote">
+        "There is no buddy like a brother, and no one cooler to hit 24 with than you!"
+      </div>
+
+      <p>Watching you grow up into such an incredible, strong, and driven 24-year-old has been an absolute joy. From fighting over the remote to backing each other up no matter what, having you as my brother is the greatest gift.</p>
+
+      <p>Keep shining, chasing your big goals, and making 24 your best year yet!</p>
+
+      <!-- Second Photo Card -->
+      <div class="memory-card">
+        <div class="polaroid-card mini">
+          <img src="manikya2.jpeg" alt="Manikya Photo 2">
+        </div>
+        <div class="memory-text">
+          <strong>Brotherhood Forever 💥</strong>
+          <span>May year 24 bring you endless success, health, laughter, and everything you've been wishing for!</span>
+        </div>
+      </div>
+
+      <p class="final-line">Never stop being the awesome, fun, and unstoppable brother you are! 🚀✨</p>
+
+      <button id="celebrate" class="magic-btn secondary">💥 Blast Celebration Fireworks!</button>
+      <p class="forever">Always got your back, brother! ❤️</p>
+    </section>
+
+    <footer>Crafted with love for my brother, Manikya 🎈</footer>
+  </main>
+
+  <button id="musicBtn" class="music-btn" aria-label="Toggle music">🎵</button>
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
